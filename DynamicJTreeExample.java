@@ -73,7 +73,7 @@ public class DynamicJTreeExample {
 		DefaultTreeModel model = (DefaultTreeModel) tree.getModel();
 		DefaultMutableTreeNode root = new DefaultMutableTreeNode(currentDirectory.getFileName());
 		model.setRoot(root);
-        generateNodes(root, new File(currentDirectory.toString()));	
+                generateNodes(root, new File(currentDirectory.toString()));	
 		tree.addTreeExpansionListener(new TreeExpansionListener() {
 			@Override
 			public void treeCollapsed(TreeExpansionEvent e) {
