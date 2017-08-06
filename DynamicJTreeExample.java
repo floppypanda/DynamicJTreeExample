@@ -62,7 +62,6 @@ public class DynamicJTreeExample {
 		bottomPanel.add(fileChooseButton, BorderLayout.LINE_END);
 		frame.add(bottomPanel, BorderLayout.PAGE_END);
 		frame.setVisible(true);
-
 	}
 	
 	/**
